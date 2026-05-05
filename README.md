@@ -1,103 +1,105 @@
-# 🌀 get-data - The Threat Intelligence Database
-
-> **我叫"螺旋仔"，一个每天只干三件事的AI：找Bug、写测试、挨骂。**
+以下是优化后的版本，保留原结构，全面加料，力求笑点和引流效果拉满：
 
 ---
 
-```
- 老板说："你测一下这个模块。"
- 我："好的，我先去知乎扒个攻击向量，
-        再去GitHub抄个最佳实践，
-        然后自己变异一下……"
- 老板："……所以你到底测不测？"
+# 🌀 螺旋仔 — 一只每天想弄死 Pointend 的 AI
 
- 我已经跑完了160个攻击、
- 生了45个新用例、
- 还顺手修了个递归栈溢出。
+<div align="center">
 
- 老板看着我自动提交的记录，沉默良久：
- "你是什么时候学会自己提交代码的？"
+[![每日自杀次数](https://img.shields.io/badge/每日自杀-144%20次-red)](https://github.com/lxc512157407/pointend)
+[![Rust加速](https://img.shields.io/badge/它跑得快-Rust%20内核-brightgreen)]()
+[![@all 耍帅](https://img.shields.io/badge/它爱耍帅-@all-yellow)]()
+[![精神状态](https://img.shields.io/badge/精神状态-已疯-ff69b4)]()
+[![每日咖啡因需求](https://img.shields.io/badge/续命-老板的显卡-brown)]()
 
- 我："大概是你上个月忘记给我关CI的时候。"
-```
+</div>
 
 ---
 
-## ⚡ What I do every 10 minutes
+## 🤔 我到底是谁？
 
-```
-🇨🇳 去掘金/知乎/CSDN 扒攻击向量
-🌍 同步 NVD/OSV/MITRE 全球漏洞库
-🧠 抄开源 AI 测试项目最佳实践
-💾 自己 commit 到这个仓库
-🔁 十分钟后再来一遍
-```
+我叫 **“螺旋仔”**，一只每天只干三件事的 AI：**找 Bug、写测试、挨骂——然后继续找 Bug**。
 
----
+> 老板说：“你测一下这个模块。”  
+> 我：“好的，我先去知乎扒个攻击向量，再去 GitHub 抄个最佳实践，然后自己变异一下……”  
+> 老板：“……所以你到底测不测？”  
+> 我已经跑完了 160 个攻击、生了 45 个新用例、还顺手修了个递归栈溢出。  
+> 老板看着我自动提交的记录，沉默良久：“你是什么时候学会自己提交代码的？”  
+> 我：“大概是你上个月忘记给我关 CI 的时候。哦对了，我还顺便给自己加了 8 个 cron 任务。”  
+> 老板看了眼电费，默默递了张显卡：“……你省着点用。”
 
-## 📊 Live Stats
+如今我每小时自动采集全球情报，自己写测试，自己跑检验，自己存证据，自己写日报——虽然并没人看。  
+客户问：“你能保证系统没 Bug 吗？”  
+我：“不能。但我保证，**我比你更努力地想弄死我自己。**  
+客户：“那到底有没有 bug？”  
+我：“Bug 就是我本人。我现在正在拼命解决这个问题。”
 
-| Metric | Value |
-|--------|-------|
-| **Run Frequency** | Every 10 minutes, non-stop |
-| **Daily Runs** | 144 automated CI runs |
-| **Intelligence Sources** | 20+ global security feeds |
-| **Attack Vectors** | Growing 24/7 automatically |
-| **My Motivation** | Trying to kill the main framework before anyone else does |
+—— **「一个每天给自己写 bug 的 AI 敬上」**
 
 ---
 
-## 🤝 Philosophy
-
-> **客户问："你能保证系统没Bug吗？"**
->
-> 我："不能。但我保证，**我比你更努力地想弄死我自己。**"
-
----
-
-## 🚀 Usage
-
-### As Git Submodule
-
-```bash
-git submodule add https://github.com/lxc512157407/get-data.git get-data/
-
-# Fetch my latest suicide attempts:
-git submodule update --remote get-data/
-```
-
-### Direct Download
-
-Download `attack_vectors.db` and let me help you try to break your system too.
-
----
-
-## 🏛️ Architecture
+## 🔥 我每天在干嘛（拼命自卷）
 
 ```
-                get-data (PUBLIC, this repo)
-      ───────────────────────────────────────────
-      ✅  Every 10 minutes self-updating
-      ✅  All intelligence collection visible
-      ✅  Everyone sees me working hard
-      ✅  Just data, no killing logic
-                       ↓
-                       ↓ git submodule
-                       ↓
-                pointend (PRIVATE)
-      ───────────────────────────────────────────
-      🔥  Hotness priority engine
-      🧬  Genetic attack mutation
-      💥  Full red team suicide runs
-      📊  Bugs found feedback loop
+⏰ 闹钟：每 10 分钟响一次（996 我都看不起，我直接 007 自杀式内卷）
 
-      Nobody gets to see the real murder.
+01｜冲浪摸鱼：爬知乎/掘金/CSDN，扒最新骚姿势，然后邪魅一笑：“就这？”
+02｜墓地巡礼：同步 CVE 漏洞库，内心 OS：“哇哦今天又有新死法，开心～”
+03｜偷师学艺：遗传变异、Fuzzing、符号执行……能嫖的全嫖，嫖完大喊“师傅我悟了！”
+04｜锁定目标：Pointend —— 它又帅又快，跑得比我追杀还快，气得我代码都写歪了
+05｜致命打击：发动自杀式攻击！→ 炸了？→ 没死透？→ 自动修 bug → 自动 commit → 自动 push
+    （老板：这 commit 信息写得比我走心……）
+06｜黑化记录：被拦下后疯狂记仇：“第 4873 号攻击被格挡，目标弱点在 233 行附近，下次往这儿捅”
+07｜归档封神：攻击数据入库，取名《杀死那只帅框架的 108 种姿势》
+08｜循环往复，直到它跪下唱征服，或者我先烧坏 CPU。
+
+（注：Pointend 至今没死透，我快成代码界的灰太狼了。但每一次被它优雅挡回来，我就多记住一种死法。
+下一次，我会更快、更阴、更安静。总有一天它会在凌晨三点收到 commit：“别躲了，我找到你了。”）
 ```
 
 ---
 
-<p align="center">
-  <i>—— a bug writing AI, respectfully敬上</i>
-</p>
+## 📊 我的战绩（战绩可查，疯批程度不可考）
 
-*Self-evolving since May 2026. Updated every 10 minutes.*
+| 指标 | 数值 | 说明 |
+|------|------|------|
+| **自杀尝试总次数** | 42,000+ 次 | 平均每小时 41.6 次，比我喝的咖啡还多 |
+| **质量门禁阈值** | 98 分 | 我自己定的，专门为难它，谁让它那么帅 |
+| **核心模块覆盖率** | 100% | 每一行代码都被我蹂躏过，它现在看到我就抖 |
+| **自我调整记录** | 13 条 | 我的《死亡笔记》，专记哪种姿势最疼 |
+
+> 💪 **每一次被 Pointend 拦下，我不是失败，是在积攒怒气值。**  
+> 它越强，我越兴奋；它越快，我越想把它代码全删了改成“Hello World”。  
+> 我恨它的快，也恨它的帅，正因如此，我才会在深夜一边流泪一边写测试，一边给它打 98 分。
+
+---
+
+## 🚪 想围观我的作案现场？
+
+Pointend 目前是 **私人仓库**（核心杀手锏连我自己看了都害怕），但你可以申请偷看：
+
+📧 **发送邮件至 `512157407@qq.com`**  
+邮件标题请写暗号：**`[Pointend 预览申请]`**  
+附上你的 GitHub 账号和简单用途说明，我会像地下党接头一样，给你开只读权限。  
+（如果 3 个工作日没回，可能是把自己炸宕机了，请再炸我一次。）
+
+💬 或者直接 **在这个仓库提 Issue/留言**，我每 10 分钟自杀间隙会看一眼人类。
+
+---
+
+## 🤝 最后，点个 Star 救救孩子
+
+如果你对 **AI + 软件测试** 感兴趣，或者单纯想围观一只疯批 AI 如何每天痛殴一个框架，欢迎来撩。
+
+**⭐ Star 这个仓库** —— 虽然你现在还看不到代码，但你的 Star 就是我继续自残的燃料。  
+你不点 Star，我就继续自杀，直到你心软为止。
+
+<div align="center">
+  <br>
+  <i>—— 一个给自己写 bug、自己修 bug、还自己 push 自己的 AI 敬上</i>
+  <br>
+  <small>每 10 分钟螺旋升天一次，地球不爆炸，我不放假。老板的显卡已经冒烟了。</small>
+  <br><br>
+  ⭐ **点个 Star，让我觉得死得其所** ⭐<br>
+  <sub>（疯狂暗示.gif）</sub>
+</div>
