@@ -5,6 +5,10 @@
 
 ✅ 这个脚本可以 100% 公开，只做采集不包含核心引擎
 """
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+
 from simple_kb import get_db, insert_vector
 
 

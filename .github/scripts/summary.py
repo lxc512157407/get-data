@@ -1,6 +1,10 @@
 """
 📊 情报汇总报告 - 公开仓库专用
 """
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+
 from datetime import datetime
 from simple_kb import get_db, get_stats
 
