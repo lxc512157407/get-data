@@ -34,17 +34,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests feedparser beautifulsoup4
 
-      - name: 🇨🇳 [1/3] Chinese Tech Community
+      - name: 🇨🇳 [1/4] Chinese Tech Community
         run: |
           echo "采集掘金 / 知乎 / CSDN / 51Testing..."
           python .github/scripts/chinese_community.py 2>&1 | tail -10
 
-      - name: 🌍 [2/3] Global Threat Intelligence Network
+      - name: 🌍 [2/4] Global Threat Intelligence Network
         run: |
           echo "采集 NVD / OSV / Exploit-DB..."
           python .github/scripts/intelligence_network.py 2>&1 | tail -8
 
-      - name: 📊 [3/3] Generate Summary
+      - name: 🕷️ [3/4] Live Threat Crawler (实时爬虫)
+        run: |
+          echo "🚀 启动实时威胁情报爬虫..."
+          python .github/scripts/live_crawler.py 2>&1 | tail -15
+
+      - name: 📊 [4/4] Generate Summary
         run: |
           python .github/scripts/summary.py 2>&1
 
@@ -58,7 +63,8 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "data: 🤖 威胁情报自动更新 $(date '+%Y-%m-%d %H:%M')
 
-            📊 自动采集: 国内社区 + 全球 CVE 情报
+            📊 自动采集: 国内社区 + 全球 CVE 情报 + 实时爬虫
+            🕷️ 新增来源: NVD/OSV/GitHub Advisory/RSS/国内安全社区
             🕒 每 10 分钟自动进化一次"
             git push
             echo ""
